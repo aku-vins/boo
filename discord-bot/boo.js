@@ -1,6 +1,6 @@
 
 const dotenv = require('dotenv');
-const discord = require('discord.js');
+const discord = require('discord.js')
 const idletcg = require('./idletcg/idletcg.js');
 const config = require('./config.js').BooConfig;
 const tcgdata = require('./idletcg/' + config.cardData);
